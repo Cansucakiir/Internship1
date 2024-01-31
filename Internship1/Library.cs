@@ -23,7 +23,7 @@ namespace Internship1
             string choice = "";
             while (control)
             {             
-                Console.WriteLine("Please choice a process(1/2/3/4/5/6)\n1)Add A Book\n2)View Books\n3)Borrow A Book\n4)Return A Book\n5)Search A Book\n6)View Expired Books");
+                Console.WriteLine("Please choose a process(1/2/3/4/5/6)\n1)Add A Book\n2)View Books\n3)Borrow A Book\n4)Return A Book\n5)Search A Book\n6)View Expired Books");
                 choice = Console.ReadLine();                           
                 if (!int.TryParse(choice, out _))
                 {
